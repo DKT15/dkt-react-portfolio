@@ -3,10 +3,27 @@
 }
 
 .navbar-brand {
-    color: #2fdfdf;
+    color: #2fdfdf !important;
     font-weight: 700;
+    padding-left: 56px;
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
+    margin-right: 24px;
+    
+}
+
+.nav__links {
+    margin-right: 48px;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: right !important;
+}
+.avatar__image {
+    height: 40px;
+    width: 40px;
+    cursor: not-allowed;
 }

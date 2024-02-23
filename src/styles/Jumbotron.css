@@ -9,17 +9,32 @@
     color: #2fdfdf;
 }
 
+.hero__header {
+    padding-top: 124px;
+}
+
+.hero__para {
+    width: 952px !important;
+    max-width: 100% !important;
+    margin-top: 24px;
+}
+
 .hero__button {
     cursor: pointer;
     background-color: #2fdfdf !important;
     border-color: #2fdfdf !important;
     color: #07070A !important;
+    margin-top: 24px;
 }
 
 .hero__button:hover {
     background-color: #3dafaf !important;
 }
 
-.hero__wrapper {
-
+.working__image {
+    height: 650px;
+    width: 650px;
+    float: right;
+    object-position: bottom 500rem;
 }
+
