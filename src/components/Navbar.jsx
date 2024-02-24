@@ -1,28 +1,29 @@
 import React from "react";
 import "../styles/Navbar.css";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg navbar-light">
-      <a className="navbar-brand" href="#">
+      <Link to="/" className="navbar-brand">
         DKT
-      </a>
+      </Link>
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav nav__links mr-auto">
           <li className="nav-item active">
-            <a className="nav-link" href="#">
+            <Link to="/" className="nav-link">
               Home
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="../pages/Projects">
+            <Link to="/projects" className="nav-link">
               Projects
-            </a>
+            </Link>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="../pages/Contact">
+            <Link to="/contact" className="nav-link">
               Contact
-            </a>
+            </Link>
           </li>
           <li>
             <img

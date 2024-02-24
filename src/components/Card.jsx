@@ -1,121 +1,93 @@
 import React from "react";
+import Card from "react-bootstrap/Card";
+import projects from "../projects.json";
+import "../styles/Card.css";
 
-function Card() {
+function KitchenSinkExample() {
   return (
-    <>
-      <h2>Projects</h2>
-      <div className="container-fluid work__section">
-        <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card work__card" style="width: 18rem">
-              <img
-                src="./assets/images/02-portfolio-4.jpg"
-                className="card-img-top work_card--img"
-                alt="..."
-              ></img>
-              <div className="card-body">
-                <h5 className="card-title">Surf Report</h5>
-                <p className="card-text">MERN stack</p>
-                <a href="#" className="btn btn-primary card__btn">
-                  Click here
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card work__card" style="width: 18rem">
-              <img
-                src="./assets/images/02-portfolio-1.jpg"
-                className="card-img-top work_card--img"
-                alt="..."
-              ></img>
-              <div className="card-body">
-                <h5 className="card-title">LED Wall</h5>
-                <p className="card-text">Node/IoT</p>
-                <a href="#" className="btn btn-primary card__btn">
-                  Click here
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card work__card" style="width: 18rem">
-              <img
-                src="./assets/images/02-portfolio-2.jpg"
-                className="card-img-top work_card--img"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Calculator</h5>
-                <p className="card-text">Javascript/CSS</p>
-                <a href="#" className="btn btn-primary card__btn">
-                  Click here
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card work__card" style="width: 18rem">
-              <img
-                src="./assets/images/02-portfolio-3.jpg"
-                className="card-img-top work_card--img"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Pastel Puzzles</h5>
-                <p className="card-text">MERN Stack</p>
-                <a href="#" className="btn btn-primary card__btn">
-                  Click here
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card work__card" style="width: 18rem">
-              <img
-                src="./assets/images/02-run-buddy.jpg"
-                className="card-img-top work_card--img"
-                alt="..."
-              />
-              <div className="card-body">
-                <h5 className="card-title">Run Buddy</h5>
-                <p className="card-text">HTML/CSS</p>
-                <a href="#" className="btn btn-primary card__btn">
-                  Click here
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-4 col-md-4 col-sm-12">
-            <div className="card work__card" style="width: 18rem">
-              <img
-                src="./assets/images/Portfolio-demo.jpg"
-                className="card-img-top work_card--img"
-                alt="..."
-              ></img>
-              <div className="card-body">
-                <h5 className="card-title">Alternative Portfolio</h5>
-                <p className="card-text">HTML/CSS</p>
-                <a
-                  href="https://dkt15.github.io/Alternative-Portfolio/"
-                  className="btn btn-primary card__btn--portfolio"
-                >
-                  Click here
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </>
+    <div className="card__wrapper">
+      <Card style={{ width: "18rem" }}>
+        <Card.Img variant="top" src={projects[0].image} />
+        <Card.Body>
+          <Card.Title>{projects[0].project}</Card.Title>
+          <Card.Text>{projects[0].description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Card.Link href={projects[0].deployed} target="_blank">
+            Website Link
+          </Card.Link>
+          <Card.Link href={projects[0].repo} target="_blank">
+            GitHub Repo
+          </Card.Link>
+        </Card.Body>
+        <Card.Img variant="top" src={projects[1].image} />
+        <Card.Body>
+          <Card.Title>{projects[1].project}</Card.Title>
+          <Card.Text>{projects[1].description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Card.Link href={projects[1].deployed} target="_blank">
+            Website Link
+          </Card.Link>
+          <Card.Link href={projects[1].repo} target="_blank">
+            GitHub Repo
+          </Card.Link>
+        </Card.Body>
+        <Card.Img variant="top" src={projects[2].image} />
+        <Card.Body>
+          <Card.Title>{projects[2].project}</Card.Title>
+          <Card.Text>{projects[2].description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Card.Link href={projects[2].deployed} target="_blank">
+            Website Link
+          </Card.Link>
+          <Card.Link href={projects[2].repo} target="_blank">
+            GitHub Repo
+          </Card.Link>
+        </Card.Body>
+        <Card.Img variant="top" src={projects[3].image} />
+        <Card.Body>
+          <Card.Title>{projects[3].project}</Card.Title>
+          <Card.Text>{projects[3].description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Card.Link href={projects[3].deployed} target="_blank">
+            Website Link
+          </Card.Link>
+          <Card.Link href={projects[3].repo} target="_blank">
+            GitHub Repo
+          </Card.Link>
+        </Card.Body>
+        <Card.Img variant="top" src={projects[4].image} />
+        <Card.Body>
+          <Card.Title>{projects[4].project}</Card.Title>
+          <Card.Text>{projects[4].description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Card.Link href={projects[4].deployed} target="_blank">
+            Website Link
+          </Card.Link>
+          <Card.Link href={projects[4].repo} target="_blank">
+            GitHub Repo
+          </Card.Link>
+        </Card.Body>
+        <Card.Img variant="top" src={projects[5].image} />
+        <Card.Body>
+          <Card.Title>{projects[5].project}</Card.Title>
+          <Card.Text>{projects[5].description}</Card.Text>
+        </Card.Body>
+        <Card.Body>
+          <Card.Link href={projects[5].deployed} target="_blank">
+            Website Link
+          </Card.Link>
+          <Card.Link href={projects[5].repo} target="_blank">
+            GitHub Repo
+          </Card.Link>
+        </Card.Body>
+      </Card>
+    </div>
   );
 }
 
-export default Card;
+export default KitchenSinkExample;
