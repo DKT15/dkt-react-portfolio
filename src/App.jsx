@@ -14,8 +14,8 @@ function App() {
         <Routes>
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/" element={<Jumbotron />} />
         </Routes>
-        <Jumbotron />
       </Router>
     </div>
   );
