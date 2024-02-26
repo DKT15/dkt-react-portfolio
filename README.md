@@ -1,8 +1,59 @@
-# React + Vite
+# React-Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
 
-Currently, two official plugins are available:
+I have used react to build this portfolio to demonstrate my knowledge.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Table of Contents
+
+- [Getting started](#getting-started)
+- [Installation and Setup](#installation-and-setup)
+- [Technologies Used](#technology)
+- [Usage](#usage)
+- [Screenshot](#screenshot)
+- [Deployment](#deployment)
+- [Contributing](#contributing)
+- [About Me](#aboutme)
+- [License](#license)
+
+## Getting Started
+
+Clone down this repository. You will need node.js and git installed globally on your machine.
+
+## Installation and Setup
+
+1. npm install
+2. npm start
+3. npm run dev
+
+## Technologies Used
+
+- HTML
+- CSS
+- Javascript
+
+## Usage
+
+## Screenshot
+
+![React Portfolio Image](/assets/images/react-portfolio.jpg)
+
+## Deployment
+
+You can access the website with this [link](https://dkt15.github.io/Prework-Study-Guide/)
+
+## Contributing
+
+If you would like to contribute to this project, please follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or improvement.
+3. Make changes and submit a pull request.
+
+## 🚀 About Me
+
+[Danté Kellman-Thompson](https://github.com/DKT15)
+
+## License
+
+This project is licensed under the MIT License.
