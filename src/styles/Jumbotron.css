@@ -41,12 +41,12 @@
 
 /* MEDIA QUERIES */
 
-/* Small phones, tablets, large phones*/
-
-@media screen and (max-width: 768px) {}
-
-/* Smaller phones */
+/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
 
 @media (max-width: 480px) {
-    /* This resizes the content to be displayed properly on a smaller phone*/
+    .working__image {
+        height: 350px !important;
+        width: 350px !important;
+        padding-left: 30px !important;
+    }
 }

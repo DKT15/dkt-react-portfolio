@@ -69,16 +69,54 @@
 .form__link {
   margin: 25px 50px;
   color: #6c63ff;
+  height: 3vh;
 }
 
 /* MEDIA QUERIES */
 
+/* Smaller Laptops */
+
+@media screen and (max-width: 1350px) {
+  .form__links {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .form__link {
+    margin: 0 !important;
+    padding: 12px 12px 0 12px;
+  }
+
+}
+
 /* Small phones, tablets, large phones*/
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
 
-/* Smaller phones */
+  .contact__title {
+    margin: 50px 0 88px 0 !important;
+  }
+
+  .form__links {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .form__link {
+    margin: 0 !important;
+    padding: 12px 12px 0 12px;
+  }
+}
+
+/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
 
 @media (max-width: 480px) {
-  /* This resizes the content to be displayed properly on a smaller phone*/
+  .form {
+    background-color: #2fdfdf;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    max-width: 75%;
+    margin-left: 12%;
+  }
 }

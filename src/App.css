@@ -3,3 +3,16 @@
   background-color: #07070A;
 }
 
+@media screen and (max-width: 768px) {
+  #root {
+    min-height: 140vh;
+    background-color: #07070A;
+    max-width: 100vh;
+  }
+}
+
+/* Smaller phones */
+
+@media (max-width: 480px) {
+  /* This resizes the content to be displayed properly on a smaller phone*/
+}

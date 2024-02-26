@@ -12,12 +12,61 @@
 
 /* MEDIA QUERIES */
 
+/* Smaller Laptops */
+
+@media screen and (max-width: 1350px) {
+    .card {
+        margin-top: 108px;
+        margin-left: 38px;
+        max-width: 22rem !important;
+        max-height: 26rem !important;
+    }
+
+    .card-body {
+        max-height: 4rem !important;
+        margin-bottom: 40px !important;
+    }
+
+    .card-link {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-left: 0 !important;
+        padding-bottom: 8px !important;
+    }
+
+}
+
 /* Small phones, tablets, large phones*/
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .card {
+        margin-top: 108px;
+        margin-left: 38px;
+        max-width: 10rem !important;
+    }
 
-/* Smaller phones */
+    .card-body {
+        max-height: 12rem !important;
+        margin-bottom: 40px !important;
+    }
+
+    .card-link {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+
+        margin-left: 0 !important;
+    }
+
+}
+
+/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
 
 @media (max-width: 480px) {
-    /* This resizes the content to be displayed properly on a smaller phone*/
+    .card {
+        margin-top: 64px;
+        margin-left: 64px;
+        max-width: 18rem !important;
+    }
 }

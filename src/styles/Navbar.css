@@ -33,10 +33,26 @@
 
 /* Small phones, tablets, large phones*/
 
-@media screen and (max-width: 768px) {}
+@media screen and (max-width: 768px) {
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: 0% !important;
+    }
 
-/* Smaller phones */
+    .nav__links {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: end !important;
+    }
+}
+
+/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
 
 @media (max-width: 480px) {
-    /* This resizes the content to be displayed properly on a smaller phone*/
+    .navbar-brand {
+        color: #2fdfdf !important;
+        font-weight: 700;
+        padding-left: 32px;
+    }
+
 }
