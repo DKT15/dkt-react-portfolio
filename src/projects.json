@@ -11,7 +11,7 @@
         "id" : 2,
         "project" : "Daily Planner App",
         "image": "./assets/images/daily-planner-app.png",
-        "description": "This a travel app that allows people to book tickets and view destinations.",
+        "description": "I have created this project to demonstrate how I use of jQuery and Dayjs.",
         "deployed": "https://dkt15.github.io/daily-planner-app/",
         "repo": "https://github.com/DKT15/daily-planner-app"
     },
@@ -19,7 +19,7 @@
         "id" : 3,
         "project" : "UK Library Book Store",
         "image": "./assets/images/uk-library-bookstore.png",
-        "description": "This a travel app that allows people to book tickets and view destinations.",
+        "description": "This book website allows the user to navigate around and see what books they can buy.",
         "deployed": "https://dkt15.github.io/UK-Library-book-store/",
         "repo": "https://github.com/DKT15/UK-Library-book-store"
     },
@@ -27,7 +27,7 @@
         "id" : 4,
         "project" : "Pasword Generator",
         "image": "./assets/images/password-generator.jpg",
-        "description": "This a travel app that allows people to book tickets and view destinations.",
+        "description": "JavaScript project to demonstrate my knowledge on beginner and advanced concepts.",
         "deployed": "https://dkt15.github.io/password-generator-challenge/",
         "repo": "https://github.com/DKT15/password-generator-challenge"
     },
@@ -35,7 +35,7 @@
         "id" : 5,
         "project" : "My first portfolio website",
         "image": "./assets/images/first-portfolio.jpg",
-        "description": "This a travel app that allows people to book tickets and view destinations.",
+        "description": "This is a portfolio website allows users to contact me and view my projects.",
         "deployed": "https://dkt15.github.io/Dante-E-portfolio/",
         "repo": "https://github.com/DKT15/Dante-E-portfolio"
     },
@@ -43,7 +43,7 @@
         "id" : 6,
         "project" : "Console Finances",
         "image": "./assets/images/console-finances.png",
-        "description": "This a travel app that allows people to book tickets and view destinations.",
+        "description": "JavaScript project to demonstrate how I work with simple concepts.",
         "deployed": "https://dkt15.github.io/DKT-console-finances/",
         "repo": "https://github.com/DKT15/DKT-console-finances"
     }
