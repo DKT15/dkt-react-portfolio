@@ -11,7 +11,7 @@
 .nav-link {
     color: white !important;
     margin-right: 24px;
-    
+
 }
 
 .nav__links {
@@ -22,8 +22,21 @@
     display: flex;
     justify-content: right !important;
 }
+
 .avatar__image {
     height: 40px;
     width: 40px;
     cursor: not-allowed;
+}
+
+/* MEDIA QUERIES */
+
+/* Small phones, tablets, large phones*/
+
+@media screen and (max-width: 768px) {}
+
+/* Smaller phones */
+
+@media (max-width: 480px) {
+    /* This resizes the content to be displayed properly on a smaller phone*/
 }
