@@ -6,6 +6,7 @@ import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
 import Jumbotron from "./components/Jumbotron";
 
+//Gets code from the components and pages.
 function App() {
   return (
     <div>

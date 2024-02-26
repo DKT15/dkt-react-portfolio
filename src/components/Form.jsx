@@ -1,6 +1,9 @@
 import "../styles/Form.css";
 import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 function TextControlsExample() {
   const handleFormSubmit = async (event) => {
@@ -23,31 +26,52 @@ function TextControlsExample() {
     );
   };
 
+  // Code for my form to go on the contact page.
   return (
     <>
-      <Form onSubmit={handleFormSubmit}>
-        <p>Enter your details below to get in touch!</p>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-          <Form.Label>Email address</Form.Label>
-          <Form.Control
-            name="user_email"
-            type="email"
-            placeholder="name@example.com"
-          />
-        </Form.Group>
-        <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-          <Form.Label>Example textarea</Form.Label>
-          <Form.Control
-            as="textarea"
-            rows={3}
-            name="message"
-            type="text"
-            required
-          />
-        </Form.Group>
-        <button type="submit" id="contact__submit" className="form__submit">
-          Send it my way!
-        </button>
+      <h1 className="contact__title">Contact</h1>
+      <Form className="form" onSubmit={handleFormSubmit}>
+        <div className="form__wrapper">
+          <p className="enter__details">
+            Enter your details below to get in touch!
+          </p>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label className="email__address">Email address</Form.Label>
+            <Form.Control
+              name="user_email"
+              type="email"
+              placeholder="name@example.com"
+              required
+            />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Label className="enter__message">
+              Enter your message
+            </Form.Label>
+            <Form.Control
+              as="textarea"
+              rows={3}
+              name="message"
+              placeholder="enter here"
+              type="text"
+              required
+            />
+          </Form.Group>
+          <button type="submit" id="contact__submit" className="form__submit">
+            Send it my way!
+          </button>
+          <div className="form__links">
+            <a href="https://github.com/DKT15">
+              <FontAwesomeIcon className="form__link" icon={faGithub} />
+            </a>
+            <a href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/">
+              <FontAwesomeIcon className="form__link" icon={faLinkedin} />
+            </a>
+            <a href="https://github.com/DKT15">
+              <FontAwesomeIcon className="form__link" icon={faFile} />
+            </a>
+          </div>
+        </div>
       </Form>
     </>
   );

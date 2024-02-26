@@ -21,14 +21,15 @@
 
 .hero__button {
     cursor: pointer;
-    background-color: #2fdfdf !important;
-    border-color: #2fdfdf !important;
+    background-color: #6c63ff !important;
+    border-color: #6c63ff !important;
     color: #07070A !important;
     margin-top: 24px;
 }
 
 .hero__button:hover {
     background-color: #3dafaf !important;
+    border-color: #3dafaf !important;
 }
 
 .working__image {
@@ -37,4 +38,3 @@
     float: right;
     object-position: bottom 500rem;
 }
-

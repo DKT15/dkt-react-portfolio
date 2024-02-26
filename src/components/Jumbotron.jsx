@@ -23,9 +23,11 @@ function Jumbotron() {
           <br />
           Click the button below to view my <b className="blue">projects.</b>
         </p>
-        <button className="btn btn-primary btn-lg hero__button" type="button">
-          Click me!
-        </button>
+        <a href="/projects">
+          <button className="btn btn-primary btn-lg hero__button" type="button">
+            Click me!
+          </button>
+        </a>
       </div>
     </div>
   );
