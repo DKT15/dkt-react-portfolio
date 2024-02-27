@@ -76,6 +76,23 @@
 
 /* Smaller Laptops */
 
+@media screen and (max-width: 1500px) {
+  .form__link {
+    margin: 0 !important;
+    padding: 12px 12px 0 12px;
+  }
+
+}
+
+
+@media screen and (max-width: 1400px) {
+  .form__link {
+    margin: 0 !important;
+    padding: 12px 12px 0 12px;
+  }
+
+}
+
 @media screen and (max-width: 1350px) {
   .form__links {
     display: flex !important;

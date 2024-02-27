@@ -61,13 +61,19 @@ function TextControlsExample() {
             Send it my way!
           </button>
           <div className="form__links">
-            <a href="https://github.com/DKT15">
+            <a href="https://github.com/DKT15" target="_blank">
               <FontAwesomeIcon className="form__link" icon={faGithub} />
             </a>
-            <a href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/">
+            <a
+              href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/"
+              target="_blank"
+            >
               <FontAwesomeIcon className="form__link" icon={faLinkedin} />
             </a>
-            <a href="https://github.com/DKT15">
+            <a
+              href="../assets/DKT-Front-End-Software-Engineer-CV.pdf"
+              target="_blank"
+            >
               <FontAwesomeIcon className="form__link" icon={faFile} />
             </a>
           </div>

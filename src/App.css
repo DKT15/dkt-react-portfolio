@@ -1,7 +1,16 @@
 #root {
-  min-height: 100vh;
+  min-height: 120vh;
   background-color: #07070A;
 }
+
+@media screen and (max-width: 1500px) {
+  #root {
+    min-height: 170vh;
+    background-color: #07070A;
+    max-width: 175vh;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   #root {
@@ -11,8 +20,9 @@
   }
 }
 
-/* Smaller phones */
-
+/* Smaller phones. /* This resizes the content to be displayed properly on a smaller phone*/
 @media (max-width: 480px) {
-  /* This resizes the content to be displayed properly on a smaller phone*/
+  #root {
+    background-color: #07070A;
+  }
 }
