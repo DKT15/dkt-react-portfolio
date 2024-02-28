@@ -71,7 +71,7 @@ function TextControlsExample() {
               <FontAwesomeIcon className="form__link" icon={faLinkedin} />
             </a>
             <a
-              href="../assets/DKT-Front-End-Software-Engineer-CV.pdf"
+              href="./assets/DKT-Front-End-Software-Engineer-CV.pdf"
               target="_blank"
             >
               <FontAwesomeIcon className="form__link" icon={faFile} />
