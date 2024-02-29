@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Jumbotron.css";
+import { Link } from "react-router-dom";
 
 function Jumbotron() {
   return (
@@ -23,11 +24,11 @@ function Jumbotron() {
           <br />
           Click the button below to view my <b className="blue">projects.</b>
         </p>
-        <a href="./projects">
+        <Link to="/Projects">
           <button className="btn btn-primary btn-lg hero__button" type="button">
             Click me!
           </button>
-        </a>
+        </Link>
       </div>
     </div>
   );
