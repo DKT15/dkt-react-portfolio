@@ -51,9 +51,12 @@
     }
 }
 
-@media (max-width: 390px) {
+@media (max-width: 393px) {
     .working__image {
-        padding-left: 70px !important;
+        max-height: 250px !important;
+        max-width: 250px !important;
+        padding-left: 0 !important;
+        margin-right: 16px !important;
 
     }
 
