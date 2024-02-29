@@ -26,7 +26,7 @@
   }
 }
 
-@media (max-width: 395px) {
+@media (max-width: 393px) {
   #root {
     min-height: 190vh;
   }
