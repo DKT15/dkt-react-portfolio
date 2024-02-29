@@ -40,7 +40,7 @@ Clone down this repository. You will need node.js and git installed globally on 
 
 ## Deployment
 
-You can access the website with this [link](https://dkt15.github.io/Prework-Study-Guide/)
+You can access the website with this [link](https://dkt-react-portfolio.netlify.app/)
 
 ## Contributing
 
