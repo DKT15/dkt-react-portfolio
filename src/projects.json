@@ -11,7 +11,7 @@
         "id" : 2,
         "project" : "Daily Planner App",
         "image": "./assets/images/daily-planner-app.png",
-        "description": "I have created this project to demonstrate how I use of jQuery and Dayjs.",
+        "description": "I have created this project to demonstrate how I use jQuery and Dayjs.",
         "deployed": "https://dkt15.github.io/daily-planner-app/",
         "repo": "https://github.com/DKT15/daily-planner-app"
     },
@@ -25,7 +25,7 @@
     },
     {
         "id" : 4,
-        "project" : "Pasword Generator",
+        "project" : "Password Generator",
         "image": "./assets/images/password-generator.jpg",
         "description": "JavaScript project to demonstrate my knowledge on beginner and advanced concepts.",
         "deployed": "https://dkt15.github.io/password-generator-challenge/",
@@ -35,7 +35,7 @@
         "id" : 5,
         "project" : "My first portfolio website",
         "image": "./assets/images/first-portfolio.jpg",
-        "description": "This is a portfolio website allows users to contact me and view my projects.",
+        "description": "This is a portfolio website that allows users to contact me and view my projects.",
         "deployed": "https://dkt15.github.io/Dante-E-portfolio/",
         "repo": "https://github.com/DKT15/Dante-E-portfolio"
     },
