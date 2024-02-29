@@ -50,3 +50,11 @@
         padding-left: 30px !important;
     }
 }
+
+@media (max-width: 390px) {
+    .working__image {
+        padding-left: 70px !important;
+
+    }
+
+}

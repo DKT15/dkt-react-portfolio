@@ -56,3 +56,29 @@
     }
 
 }
+
+@media (max-width: 390px) {
+    .navbar-brand {
+        margin: 0 !important;
+    }
+
+    .nav__links {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 375px) {
+    .navbar-brand {
+        margin: 0 !important;
+    }
+
+    .nav__links {
+        font-size: 14px;
+    }
+
+    .avatar__image {
+        display: none;
+    }
+
+}

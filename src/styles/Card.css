@@ -87,3 +87,9 @@
         max-width: 18rem !important;
     }
 }
+
+@media (max-width: 375px) {
+    .card {
+        margin-left: 40px !important;
+    }
+}
