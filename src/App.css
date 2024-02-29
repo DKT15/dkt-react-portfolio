@@ -5,29 +5,28 @@
 
 @media screen and (max-width: 1500px) {
   #root {
-    min-height: 170vh;
-    background-color: #07070A;
-    max-width: 175vh;
+    min-height: 170vh !important;
+    max-width: 175vh !important;
   }
 }
 
 
 @media screen and (max-width: 768px) {
   #root {
-    min-height: 140vh;
-    max-width: 100vh;
+    min-height: 140vh !important;
+    max-width: 100vh !important;
   }
 }
 
 /* Smaller phones. /* This resizes the content to be displayed properly on a smaller phone*/
 @media (max-width: 480px) {
   #root {
-    min-height: 180vh;
+    min-height: 180vh !important;
   }
 }
 
 @media (max-width: 393px) {
   #root {
-    min-height: 190vh;
+    min-height: 190vh !important;
   }
 }
