@@ -57,17 +57,18 @@
 
 }
 
-@media (max-width: 395px) {
+@media (max-width: 393px) {
     .navbar-brand {
         margin: 0 !important;
     }
 
     .nav__links {
         font-size: 14px;
+        margin-right: 36px !important;
     }
 
     .avatar__image {
-        display: none;
+        display: none !important;
     }
 }
 
