@@ -31,8 +31,17 @@ Clone down this repository. You will need node.js and git installed globally on 
 - HTML
 - CSS
 - Javascript
+- React
+- [NPM.js](https://www.npmjs.com/)
+- [Bootstrap](https://getbootstrap.com/)
+- [EmailJs](https://www.emailjs.com/)
+- [Fontawsome](https://fontawesome.com/)
 
-## Usage
+## Features
+
+- Home
+- Projects
+- Contact
 
 ## Screenshot
 
