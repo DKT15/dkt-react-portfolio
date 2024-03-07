@@ -41,10 +41,10 @@
     },
     {
         "id" : 6,
-        "project" : "Console Finances",
-        "image": "./assets/images/console-finances.png",
-        "description": "JavaScript project to demonstrate how I work with simple concepts.",
-        "deployed": "https://dkt15.github.io/DKT-console-finances/",
-        "repo": "https://github.com/DKT15/DKT-console-finances"
+        "project" : "Flavour Finder App",
+        "image": "./assets/images/flavour-finder.png",
+        "description": "The app will have a list of restaurants. You will be able to view and submit reviews.",
+        "deployed": "https://flavour-finder.netlify.app/",
+        "repo": "https://github.com/DKT15/flavour-finder-app"
     }
 ]
