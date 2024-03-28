@@ -31,9 +31,10 @@
 
 /* MEDIA QUERIES */
 
-/* Small phones, tablets, large phones*/
+/* Small phones, tablets, large phones, Computers*/
 
-@media screen and (max-width: 768px) {
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {
     .navbar-collapse {
         display: flex !important;
         flex-basis: 0% !important;
@@ -46,18 +47,31 @@
     }
 }
 
-/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
-
-@media (max-width: 480px) {
-    .navbar-brand {
-        color: #2fdfdf !important;
-        font-weight: 700;
-        padding-left: 28px;
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: 0% !important;
     }
 
+    .nav__links {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: end !important;
+    }
 }
 
-@media (max-width: 393px) {
+@media only screen and (min-width: 380px) and (max-width: 600px) {
+    .navbar-collapse {
+        display: flex !important;
+        flex-basis: 0% !important;
+    }
+
+    .nav__links {
+        display: flex !important;
+        flex-direction: row !important;
+        align-items: end !important;
+    }
+
     .navbar-brand {
         margin: 0 !important;
     }
@@ -72,17 +86,4 @@
     }
 }
 
-@media (max-width: 375px) {
-    .navbar-brand {
-        margin: 0 !important;
-    }
-
-    .nav__links {
-        font-size: 14px;
-    }
-
-    .avatar__image {
-        display: none;
-    }
-
-}
+/*MEDIA QUERIES END */

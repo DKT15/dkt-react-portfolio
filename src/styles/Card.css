@@ -12,6 +12,20 @@
 
 /* MEDIA QUERIES */
 
+/* MEDIA QUERIES */
+
+/* Small phones, tablets, large phones, Computers*/
+
+@media only screen and (min-width: 1201px) and (max-width: 1750px) {}
+
+@media only screen and (min-width: 769px) and (max-width: 1200px) {}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {}
+
+@media only screen and (min-width: 380px) and (max-width: 600px) {}
+
+/*MEDIA QUERIES END */
+
 /* Smaller Laptops */
 
 @media screen and (max-width: 1500px) {
