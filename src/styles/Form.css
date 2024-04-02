@@ -29,6 +29,7 @@
   color: black;
   font-weight: 500;
   margin-bottom: 32px;
+  text-align: center;
 }
 
 .email__address {
@@ -76,36 +77,7 @@
 
 /* Small phones, tablets, large phones, Computers*/
 
-@media only screen and (min-width: 1201px) and (max-width: 1750px) {}
-
-@media only screen and (min-width: 769px) and (max-width: 1200px) {}
-
-@media only screen and (min-width: 601px) and (max-width: 768px) {}
-
-@media only screen and (min-width: 380px) and (max-width: 600px) {}
-
-/*MEDIA QUERIES END */
-
-/* Smaller Laptops */
-
-@media screen and (max-width: 1500px) {
-  .form__link {
-    margin: 0 !important;
-    padding: 12px 12px 0 12px;
-  }
-
-}
-
-
-@media screen and (max-width: 1400px) {
-  .form__link {
-    margin: 0 !important;
-    padding: 12px 12px 0 12px;
-  }
-
-}
-
-@media screen and (max-width: 1350px) {
+@media only screen and (min-width: 1201px) and (max-width: 1750px) {
   .form__links {
     display: flex !important;
     flex-direction: row !important;
@@ -115,8 +87,44 @@
     margin: 0 !important;
     padding: 12px 12px 0 12px;
   }
-
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1200px) {
+  .contact__title {
+    margin: 50px 0 88px 0 !important;
+  }
+
+  .form__links {
+    display: flex !important;
+    flex-direction: row !important;
+  }
+
+  .form__link {
+    margin: 0 !important;
+    padding: 12px 12px 0 12px;
+  }
+}
+
+
+@media only screen and (min-width: 380px) and (max-width: 600px) {
+  .form {
+    background-color: #2fdfdf;
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    max-width: 75%;
+    margin-left: 12%;
+  }
+
+  .form__submit {
+    font-size: 12px;
+  }
+}
+
+/*MEDIA QUERIES END */
+
+/* Smaller Laptops */
+
 
 /* Small phones, tablets, large phones*/
 
@@ -134,18 +142,5 @@
   .form__link {
     margin: 0 !important;
     padding: 12px 12px 0 12px;
-  }
-}
-
-/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
-
-@media (max-width: 480px) {
-  .form {
-    background-color: #2fdfdf;
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-    max-width: 75%;
-    margin-left: 12%;
   }
 }
