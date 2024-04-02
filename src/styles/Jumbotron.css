@@ -9,14 +9,35 @@
     color: #2fdfdf;
 }
 
+.content__wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
 .hero__header {
-    padding-top: 124px;
+    padding-top: 64px;
+    text-align: center;
+}
+
+.para__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .hero__para {
     width: 952px !important;
     max-width: 100% !important;
     margin-top: 24px;
+    text-align: center;
+}
+
+.btn__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .hero__button {
@@ -35,41 +56,40 @@
 .working__image {
     height: 650px;
     width: 650px;
-    float: right;
-    object-position: bottom 500rem;
+}
+
+.img__wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 /* MEDIA QUERIES START */
 
 /* Small phones, tablets, large phones, Computers*/
 
-@media only screen and (min-width: 1201px) and (max-width: 1750px) {}
+@media only screen and (min-width: 1051px) and (max-width: 1750px) {
+    .working__image {
+        max-height: 600px !important;
+        max-width: 600px !important;
+        padding-left: 0 !important;
+    }
+}
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) {}
+@media only screen and (min-width: 769px) and (max-width: 1050px) {
+    .working__image {
+        max-height: 500px !important;
+        max-width: 500px !important;
+        padding-left: 0 !important;
+    }
+}
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {}
-
-@media only screen and (min-width: 380px) and (max-width: 600px) {}
+@media only screen and (min-width: 380px) and (max-width: 768px) {
+    .working__image {
+        max-height: 400px !important;
+        max-width: 400px !important;
+        padding-left: 0 !important;
+    }
+}
 
 /*MEDIA QUERIES END */
-
-/* Smaller phones. This resizes the content to be displayed properly on a smaller phone */
-
-@media (max-width: 480px) {
-    .working__image {
-        height: 350px !important;
-        width: 350px !important;
-        padding-left: 30px !important;
-    }
-}
-
-@media (max-width: 393px) {
-    .working__image {
-        max-height: 250px !important;
-        max-width: 250px !important;
-        padding-left: 0 !important;
-        margin-right: 16px !important;
-
-    }
-
-}
