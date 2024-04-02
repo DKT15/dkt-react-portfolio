@@ -15,11 +15,17 @@
 /* Small phones, tablets, large phones, Computers*/
 
 @media only screen and (min-width: 1201px) and (max-width: 1750px) {
+    .col {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
+
     .card {
         margin-top: 108px;
-        margin-left: 38px;
         max-width: 22rem !important;
-        max-height: 26rem !important;
+        max-height: 24rem !important;
+        margin-left: 0px;
     }
 
     .card-body {
@@ -37,12 +43,35 @@
 
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1200px) {}
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .col {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
+    }
 
-@media only screen and (min-width: 601px) and (max-width: 768px) {
     .card {
         margin-top: 108px;
-        margin-left: 38px;
+        max-width: 16rem !important;
+        margin-left: 0 !important;
+    }
+
+    .card-body {
+        max-height: 10rem !important;
+        margin-bottom: 40px !important;
+    }
+
+    .card-link {
+        display: flex !important;
+        flex-direction: column !important;
+        align-items: center !important;
+        margin-left: 0 !important;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 900px) {
+    .card {
+        margin-top: 108px;
         max-width: 10rem !important;
     }
 
@@ -59,7 +88,8 @@
     }
 }
 
-@media only screen and (min-width: 380px) and (max-width: 600px) {
+
+@media only screen and (min-width: 380px) and (max-width: 767px) {
     .card {
         margin-top: 64px;
         max-width: 18rem !important;
