@@ -3,37 +3,23 @@
   background-color: #07070A;
 }
 
-@media only screen and (min-width: 1202px) and (max-width: 1475px) {}
-
-@media only screen and (min-width: 800px) and (max-width: 1201px) {}
-
-@media only screen and (min-width: 380px) and (max-width: 799px) {}
-
-
-@media screen and (max-width: 1500px) {
+@media only screen and (min-width: 1051px) and (max-width: 1750px) {
   #root {
     min-height: 170vh !important;
-    max-width: 175vh !important;
+    min-width: 175vh !important;
   }
 }
 
-
-@media screen and (max-width: 768px) {
+@media only screen and (min-width: 769px) and (max-width: 1050px) {
   #root {
     min-height: 140vh !important;
-    max-width: 100vh !important;
+    min-width: 100vh !important;
   }
 }
 
-/* Smaller phones. /* This resizes the content to be displayed properly on a smaller phone*/
-@media (max-width: 480px) {
+@media only screen and (min-width: 380px) and (max-width: 768px) {
   #root {
-    min-height: 180vh !important;
-  }
-}
-
-@media (max-width: 393px) {
-  #root {
-    min-height: 190vh !important;
+    min-height: 140vh !important;
+    min-width: 100vh !important;
   }
 }
