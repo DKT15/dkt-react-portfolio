@@ -1,25 +1,25 @@
 #root {
-  min-height: 100vh;
+  min-height: 200vh;
   background-color: #07070A;
 }
 
 @media only screen and (min-width: 1051px) and (max-width: 1750px) {
   #root {
-    min-height: 100vh !important;
+    min-height: 200vh !important;
     min-width: 175vh !important;
   }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1050px) {
   #root {
-    min-height: 100vh !important;
+    min-height: 200vh !important;
     min-width: 100vh !important;
   }
 }
 
 @media only screen and (min-width: 380px) and (max-width: 768px) {
   #root {
-    min-height: 100vh !important;
+    min-height: 200vh !important;
     min-width: 100vh !important;
   }
 }
