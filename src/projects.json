@@ -46,5 +46,29 @@
         "description": "The app will have a list of restaurants. You will be able to view and submit reviews.",
         "deployed": "https://flavour-finder.netlify.app/",
         "repo": "https://github.com/DKT15/flavour-finder-app"
+    },
+    {
+        "id" : 7,
+        "project" : "Passenger Counter App",
+        "image": "./assets/images/passenger-counter-img.png",
+        "description": "This app allows the user to increment based on the number of passengers that enter the station.",
+        "deployed": "https://dkt15.github.io/passenger-counter-app/",
+        "repo": "https://github.com/DKT15/passenger-counter-app"
+    },
+    {
+        "id" : 8,
+        "project" : "Basketball Scoreboard App",
+        "image": "./assets/images/Basketball-scoreboard-img.png",
+        "description": "This allows the user to interact with this app whilst a basketball game is live.",
+        "deployed": "https://dkt15.github.io/basketball-scoreboard/",
+        "repo": "https://github.com/DKT15/basketball-scoreboard"
+    },
+    {
+        "id" : 9,
+        "project" : "Blackjack game",
+        "image": "./assets/images/Blackjack-img.png",
+        "description": "This game allows the player to generate random numbers to play blackjack.",
+        "deployed": "https://dkt15.github.io/blackjack-game/",
+        "repo": "https://github.com/DKT15/blackjack-game"
     }
 ]

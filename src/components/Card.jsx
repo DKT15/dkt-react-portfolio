@@ -125,6 +125,63 @@ function GridExample() {
             </Card>
           </Col>
         ))}
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col key={idx}>
+            <Card style={{ width: "30rem" }}>
+              <Card.Img variant="top" src={projects[6].image} />
+              <Card.Body>
+                <Card.Title>{projects[6].project}</Card.Title>
+                <Card.Text>{projects[6].description}</Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Link href={projects[6].deployed} target="_blank">
+                  Website Link
+                </Card.Link>
+                <Card.Link href={projects[6].repo} target="_blank">
+                  GitHub Repo
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col key={idx}>
+            <Card style={{ width: "30rem" }}>
+              <Card.Img variant="top" src={projects[7].image} />
+              <Card.Body>
+                <Card.Title>{projects[7].project}</Card.Title>
+                <Card.Text>{projects[7].description}</Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Link href={projects[7].deployed} target="_blank">
+                  Website Link
+                </Card.Link>
+                <Card.Link href={projects[7].repo} target="_blank">
+                  GitHub Repo
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col key={idx}>
+            <Card style={{ width: "30rem" }}>
+              <Card.Img variant="top" src={projects[8].image} />
+              <Card.Body>
+                <Card.Title>{projects[8].project}</Card.Title>
+                <Card.Text>{projects[8].description}</Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Link href={projects[8].deployed} target="_blank">
+                  Website Link
+                </Card.Link>
+                <Card.Link href={projects[8].repo} target="_blank">
+                  GitHub Repo
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
       </Row>
     </>
   );
