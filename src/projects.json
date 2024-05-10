@@ -70,5 +70,29 @@
         "description": "This game allows the player to generate random numbers to play blackjack.",
         "deployed": "https://dkt15.github.io/blackjack-game/",
         "repo": "https://github.com/DKT15/blackjack-game"
+    },
+    {
+        "id" : 10,
+        "project" : "Unit Converter",
+        "image": "./assets/images/unit-converter-img.png",
+        "description": "This app allows the user to enter a number and it will show a range of unit conversions.",
+        "deployed": "https://dkt15.github.io/unit-converter/",
+        "repo": "https://github.com/DKT15/unit-converter"
+    },
+    {
+        "id" : 11,
+        "project" : "Add To Cart",
+        "image": "./assets/images/add-to-cart-img.png",
+        "description": "A Mobile app that allows users to make a shopping list and delete each item as they pick them up in the shops.",
+        "deployed": "https://dkt-add-to-cart.netlify.app/",
+        "repo": "https://github.com/DKT15/add-to-cart-firebase"
+    },
+    {
+        "id" : 12,
+        "project" : "We Are The Champions",
+        "image": "./assets/images/we-are-the-champions.png",
+        "description": "This is a mobile app will allow people to leave good feedback for people that have helped them.",
+        "deployed": "https://dkt-champions.netlify.app/",
+        "repo": "https://github.com/DKT15/we-are-the-champions"
     }
 ]
