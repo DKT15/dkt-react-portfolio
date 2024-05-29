@@ -31,10 +31,7 @@ function Jumbotron() {
             </p>
           </div>
           <Link className="btn__wrapper" to="/Projects">
-            <button
-              className="btn btn-primary btn-lg hero__button"
-              type="button"
-            >
+            <button className="btn btn-lg hero__button" type="button">
               Click me!
             </button>
           </Link>

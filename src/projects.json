@@ -94,5 +94,29 @@
         "description": "This is a mobile app will allow people to leave good feedback for people that have helped them.",
         "deployed": "https://dkt-champions.netlify.app/",
         "repo": "https://github.com/DKT15/we-are-the-champions"
+    },
+    {
+        "id" : 13,
+        "project" : "Leads Chrome Extension",
+        "image": "./assets/images/leads-chrome-extension.png",
+        "description": "A Chrome Extension that allows the user to save leads to local storage.",
+        "deployed": "/",
+        "repo": "https://github.com/DKT15/leads-chrome-extension"
+    },
+    {
+        "id" : 14,
+        "project" : "Twimba - X/Twitter Clone",
+        "image": "./assets/images/twimba-x-twitter-clone.png",
+        "description": "This mobile app, is an X (formerly Twitter) clone and implements basic functionality.",
+        "deployed": "https://dkt-twimba-x-clone.netlify.app/",
+        "repo": "https://github.com/DKT15/twimba-x-twitter-clone"
+    },
+    {
+        "id" : 15,
+        "project" : "Restaurant Ordering App",
+        "image": "./assets/images/restaurant-ordering-app.png",
+        "description": "This is a mobile app that allows the user to add food items to an order.",
+        "deployed": "https://dkt-restaurant-ordering-app.netlify.app/",
+        "repo": "https://github.com/DKT15/restaurant-ordering-app"
     }
 ]

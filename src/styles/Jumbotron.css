@@ -38,6 +38,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    text-decoration: none;
 }
 
 .hero__button {
@@ -48,7 +49,8 @@
     margin-top: 24px;
 }
 
-.hero__button:hover {
+.hero__button:hover,
+.hero__button:focus {
     background-color: #3dafaf !important;
     border-color: #3dafaf !important;
 }
