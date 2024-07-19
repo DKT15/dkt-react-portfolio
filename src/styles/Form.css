@@ -77,19 +77,8 @@
 
 /* Small phones, tablets, large phones, Computers*/
 
-@media only screen and (min-width: 1201px) and (max-width: 1750px) {
-  .form__links {
-    display: flex !important;
-    flex-direction: row !important;
-  }
 
-  .form__link {
-    margin: 0 !important;
-    padding: 12px 12px 0 12px;
-  }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1200px) {
+@media only screen and (min-width: 601px) and (max-width: 1750px) {
   .contact__title {
     margin: 50px 0 88px 0 !important;
   }

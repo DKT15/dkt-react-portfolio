@@ -21,12 +21,6 @@ html body {
   }
 }
 
-@media only screen and (min-width: 769px) and (max-width: 1050px) {
-  #root {
-    min-height: 250vh !important;
-    min-width: 100vh !important;
-  }
-}
 
 @media only screen and (min-width: 380px) and (max-width: 768px) {
   #root {
