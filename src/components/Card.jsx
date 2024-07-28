@@ -296,6 +296,44 @@ function GridExample() {
             </Card>
           </Col>
         ))}
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col key={idx}>
+            <Card style={{ width: "30rem" }}>
+              <Card.Img variant="top" src={projects[15].image} />
+              <Card.Body>
+                <Card.Title>{projects[15].project}</Card.Title>
+                <Card.Text>{projects[15].description}</Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Link href={projects[15].deployed} target="_blank">
+                  Website Link
+                </Card.Link>
+                <Card.Link href={projects[15].repo} target="_blank">
+                  GitHub Repo
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+        {Array.from({ length: 1 }).map((_, idx) => (
+          <Col key={idx}>
+            <Card style={{ width: "30rem" }}>
+              <Card.Img variant="top" src={projects[16].image} />
+              <Card.Body>
+                <Card.Title>{projects[16].project}</Card.Title>
+                <Card.Text>{projects[16].description}</Card.Text>
+              </Card.Body>
+              <Card.Body>
+                <Card.Link href={projects[16].deployed} target="_blank">
+                  Website Link
+                </Card.Link>
+                <Card.Link href={projects[16].repo} target="_blank">
+                  GitHub Repo
+                </Card.Link>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
       </Row>
     </>
   );

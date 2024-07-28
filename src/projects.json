@@ -118,5 +118,21 @@
         "description": "This is a mobile app that allows the user to add food items to an order.",
         "deployed": "https://dkt-restaurant-ordering-app.netlify.app/",
         "repo": "https://github.com/DKT15/restaurant-ordering-app"
+    },
+    {
+        "id" : 16,
+        "project" : "Colour Generator App",
+        "image": "./assets/images/colour-generator-img.png",
+        "description": "This app will allow the user to choose random colours from a generator.",
+        "deployed": "https://dkt15.github.io/colour-generator-api/",
+        "repo": "https://github.com/DKT15/colour-generator-api"
+    },
+    {
+        "id" : 17,
+        "project" : "Movie Watchlist",
+        "image": "./assets/images/movie-watchlist-img.png",
+        "description": "Allows the user to search for movies, to then add or remove to their watchlist.",
+        "deployed": "https://dkt-movie-watchlist.netlify.app/",
+        "repo": "https://github.com/DKT15/movie-watchlist"
     }
 ]
