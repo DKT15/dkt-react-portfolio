@@ -1,12 +1,15 @@
 import React from "react";
 import "../styles/Jumbotron.css";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faFile } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function Jumbotron() {
   return (
     <div className="p-5 mb-4 hero__section">
       <div className="container-fluid py-5 hero__wrapper">
-        <div className="content__wrapper">
+        <section className="content__wrapper">
           <h1 className="display-5 fw-bold hero__header">
             Welcome to my portfolio!
           </h1>
@@ -33,7 +36,24 @@ export default function Jumbotron() {
               </button>
             </Link>
           </section>
-        </div>
+          <section className="form-links">
+            <a href="https://github.com/DKT15" target="_blank">
+              <FontAwesomeIcon className="form__link" icon={faGithub} />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/"
+              target="_blank"
+            >
+              <FontAwesomeIcon className="form__link" icon={faLinkedin} />
+            </a>
+            <a
+              href="./assets/DKT-Front-End-Software-Engineer-CV.pdf"
+              target="_blank"
+            >
+              <FontAwesomeIcon className="form__link" icon={faFile} />
+            </a>
+          </section>
+        </section>
         <div className="img__wrapper">
           <img
             className="working__image"

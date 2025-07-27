@@ -60,6 +60,12 @@
     border-color: #b84343 !important;
 }
 
+.form-links {
+    display: flex;
+    flex-direction: row;
+    padding: 0 12px !important;
+}
+
 .img__wrapper {
     display: flex;
     flex-direction: row;
