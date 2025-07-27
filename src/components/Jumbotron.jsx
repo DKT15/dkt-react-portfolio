@@ -23,12 +23,12 @@ export default function Jumbotron() {
             <br />
           </p>
           <section className="btns__wrapper">
-            <Link className="btn__wrapper" to="/liveprojects">
+            <Link className="livebtn__wrapper" to="/liveprojects">
               <button className="btn btn-lg hero__button" type="button">
                 Live Projects
               </button>
             </Link>
-            <Link className="btn__wrapper" to="/developmentprojects">
+            <Link className="devbtn__wrapper" to="/developmentprojects">
               <button className="btn btn-lg hero__button" type="button">
                 Development Projects
               </button>
