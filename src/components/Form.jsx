@@ -2,9 +2,6 @@ import React from "react";
 import "../styles/Form.css";
 import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faFile } from "@fortawesome/free-solid-svg-icons";
-import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
 export default function TextControlsExample() {
   const handleFormSubmit = async (event) => {
@@ -61,23 +58,6 @@ export default function TextControlsExample() {
           <button type="submit" id="contact__submit" className="form__submit">
             Send it my way!
           </button>
-          <div className="form__links">
-            <a href="https://github.com/DKT15" target="_blank">
-              <FontAwesomeIcon className="form__link" icon={faGithub} />
-            </a>
-            <a
-              href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/"
-              target="_blank"
-            >
-              <FontAwesomeIcon className="form__link" icon={faLinkedin} />
-            </a>
-            <a
-              href="./assets/DKT-Front-End-Software-Engineer-CV.pdf"
-              target="_blank"
-            >
-              <FontAwesomeIcon className="form__link" icon={faFile} />
-            </a>
-          </div>
         </div>
       </Form>
     </>

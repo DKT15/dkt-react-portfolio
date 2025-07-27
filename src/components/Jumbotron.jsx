@@ -36,7 +36,7 @@ export default function Jumbotron() {
               </button>
             </Link>
           </section>
-          <section className="form-links">
+          <div className="form-links">
             <a href="https://github.com/DKT15" target="_blank">
               <FontAwesomeIcon className="form__link" icon={faGithub} />
             </a>
@@ -52,7 +52,7 @@ export default function Jumbotron() {
             >
               <FontAwesomeIcon className="form__link" icon={faFile} />
             </a>
-          </section>
+          </div>
         </section>
         <div className="img__wrapper">
           <img
