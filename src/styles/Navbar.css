@@ -4,8 +4,12 @@
 
 header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 8px 0;
 }
 
 a {
@@ -13,22 +17,24 @@ a {
     color: #2f3e55 !important;
 }
 
+a:hover {
+    text-decoration: underline;
+}
+
 .navbar-brand {
     color: #2f3e55 !important;
     font-weight: 700;
-    padding-left: 56px;
+    font-size: 32px !important;
 }
 
-.navbar-collapse {
+nav {
     display: flex;
-    justify-content: right !important;
 }
 
-.avatar__image {
-    height: 40px;
-    width: 40px;
-    cursor: not-allowed;
+.nav-link {
+    padding: 0 12px !important;
 }
+
 
 /* MEDIA QUERIES START */
 
@@ -80,10 +86,6 @@ a {
     .nav__links {
         font-size: 14px;
         margin-right: 36px !important;
-    }
-
-    .avatar__image {
-        display: none !important;
     }
 }
 

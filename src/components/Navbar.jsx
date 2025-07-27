@@ -13,36 +13,35 @@ export default function Navbar() {
       <Link to="/" className="navbar-brand">
         DKT
       </Link>
-      <nav className="porfolio-nav">
+      <nav>
         <NavLink
           to="/"
           style={({ isActive }) => (isActive ? navStyling : null)}
+          className="nav-link"
         >
           Home
         </NavLink>
         <NavLink
           to="/liveprojects"
           style={({ isActive }) => (isActive ? navStyling : null)}
+          className="nav-link"
         >
           Live Projects
         </NavLink>
         <NavLink
           to="/developmentprojects"
           style={({ isActive }) => (isActive ? navStyling : null)}
+          className="nav-link"
         >
           Development projects
         </NavLink>
         <NavLink
           to="/contact"
           style={({ isActive }) => (isActive ? navStyling : null)}
+          className="nav-link"
         >
           Contact
         </NavLink>
-        <img
-          className="avatar__image"
-          src="./assets/images/avatar-image.svg"
-          alt=""
-        ></img>
       </nav>
     </header>
   );
