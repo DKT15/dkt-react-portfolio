@@ -12,7 +12,7 @@ export default function Jumbotron() {
           </h1>
           <div className="para__wrapper">
             <p className="col-md-8 fs-4 hero__para">
-              I'm <b className="blue">Danté Kellman-Thompson</b> a
+              I'm <b className="blue">Danté </b> a
               <b className="blue"> Front-End Software Engineer</b> with a strong
               passion for developing amazing websites, with
               <b className="blue"> great user experiences.</b> I have been

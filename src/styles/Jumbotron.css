@@ -1,7 +1,9 @@
 .hero__section {
-    max-height: 100%;
     color: black;
     background-color: #e0f7e9;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .hero__wrapper {
@@ -17,19 +19,22 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    width: 600px !important;
+    max-width: 100% !important;
 }
 
 
 .hero__header {
-    padding-top: 64px;
+    padding-top: 32px;
     text-align: left;
+    font-size: 2.5rem !important;
 }
 
 .hero__para {
-    width: 952px !important;
     max-width: 75% !important;
     margin-top: 24px;
     text-align: left;
+    font-size: 1rem !important;
 }
 
 .btns_wrapper {
@@ -45,7 +50,7 @@
     cursor: pointer;
     background-color: #ff6b6b !important;
     border-color: #ff6b6b !important;
-    color: #07070A !important;
+    color: #2f3e55 !important;
     margin-top: 24px;
 }
 
@@ -55,16 +60,19 @@
     border-color: #b84343 !important;
 }
 
-.working__image {
-    height: 500px;
-    width: 500px;
-}
-
 .img__wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    max-width: 100% !important;
 }
+
+.working__image {
+    height: 350px;
+    width: 350px;
+}
+
+
 
 /* MEDIA QUERIES START */
 

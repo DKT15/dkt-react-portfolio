@@ -33,7 +33,7 @@ export default function Navbar() {
           style={({ isActive }) => (isActive ? navStyling : null)}
           className="nav-link"
         >
-          Development projects
+          Development Projects
         </NavLink>
         <NavLink
           to="/contact"

@@ -3,7 +3,7 @@ import Card from "react-bootstrap/Card";
 import projects from "../devprojects.json";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import "../styles/Card.css";
+import "../styles/DevProjectCard.css";
 
 // Code for my cards to go on the projects page.
 export default function GridExample() {
