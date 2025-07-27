@@ -6,7 +6,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
-function TextControlsExample() {
+export default function TextControlsExample() {
   const handleFormSubmit = async (event) => {
     // Preventing the default behavior of the form submit (which is to refresh the page)
     event.preventDefault();
@@ -83,5 +83,3 @@ function TextControlsExample() {
     </>
   );
 }
-
-export default TextControlsExample;

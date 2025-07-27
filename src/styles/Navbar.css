@@ -1,21 +1,22 @@
 .navbar {
-    background-color: #07070A;
+    background-color: #e0f7e9;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none !important;
+    color: #2f3e55 !important;
 }
 
 .navbar-brand {
-    color: #2fdfdf !important;
+    color: #2f3e55 !important;
     font-weight: 700;
     padding-left: 56px;
-}
-
-.nav-link {
-    color: white !important;
-    margin-right: 24px;
-
-}
-
-.nav__links {
-    margin-right: 48px;
 }
 
 .navbar-collapse {

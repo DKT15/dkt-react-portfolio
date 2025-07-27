@@ -1,15 +1,15 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import projects from "../projects.json";
+import projects from "../devprojects.json";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/Card.css";
 
 // Code for my cards to go on the projects page.
-function GridExample() {
+export default function GridExample() {
   return (
     <>
-      <h1 className="projects__title">Projects</h1>
+      <h1 className="projects__title">Development Projects</h1>
       <Row xs={1} md={3} className="g-4">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
@@ -338,5 +338,3 @@ function GridExample() {
     </>
   );
 }
-
-export default GridExample;

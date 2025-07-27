@@ -1,41 +1,49 @@
 import React from "react";
 import "../styles/Navbar.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
-function Navbar() {
+export default function Navbar() {
+  const navStyling = {
+    fontWeight: "bold",
+    color: "#2f3e55",
+  };
+
   return (
-    <nav className="navbar navbar-expand-lg navbar-light">
+    <header>
       <Link to="/" className="navbar-brand">
         DKT
       </Link>
-      <div className="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul className="navbar-nav nav__links mr-auto">
-          <li className="nav-item active">
-            <Link to="/" className="nav-link">
-              Home
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/projects" className="nav-link">
-              Projects
-            </Link>
-          </li>
-          <li className="nav-item">
-            <Link to="/contact" className="nav-link">
-              Contact
-            </Link>
-          </li>
-          <li>
-            <img
-              className="avatar__image"
-              src="./assets/images/avatar-image.svg"
-              alt=""
-            ></img>
-          </li>
-        </ul>
-      </div>
-    </nav>
+      <nav className="porfolio-nav">
+        <NavLink
+          to="/"
+          style={({ isActive }) => (isActive ? navStyling : null)}
+        >
+          Home
+        </NavLink>
+        <NavLink
+          to="/liveprojects"
+          style={({ isActive }) => (isActive ? navStyling : null)}
+        >
+          Live Projects
+        </NavLink>
+        <NavLink
+          to="/developmentprojects"
+          style={({ isActive }) => (isActive ? navStyling : null)}
+        >
+          Development projects
+        </NavLink>
+        <NavLink
+          to="/contact"
+          style={({ isActive }) => (isActive ? navStyling : null)}
+        >
+          Contact
+        </NavLink>
+        <img
+          className="avatar__image"
+          src="./assets/images/avatar-image.svg"
+          alt=""
+        ></img>
+      </nav>
+    </header>
   );
 }
-
-export default Navbar;

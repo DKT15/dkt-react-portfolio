@@ -1,12 +1,17 @@
 .hero__section {
     height: 885px;
     max-height: 100%;
-    color: white;
-    background-color: #07070A;
+    color: black;
+    background-color: #e0f7e9;
+}
+
+.hero__wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .blue {
-    color: #2fdfdf;
+    color: #2f3e55;
 }
 
 .content__wrapper {
@@ -18,46 +23,42 @@
 
 .hero__header {
     padding-top: 64px;
-    text-align: center;
-}
-
-.para__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    text-align: left;
 }
 
 .hero__para {
     width: 952px !important;
-    max-width: 100% !important;
+    max-width: 75% !important;
     margin-top: 24px;
-    text-align: center;
+    text-align: left;
+}
+
+.btns_wrapper {
+    margin: 0 20px;
 }
 
 .btn__wrapper {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    margin: 0 20px 0 0;
     text-decoration: none;
 }
 
 .hero__button {
     cursor: pointer;
-    background-color: #6c63ff !important;
-    border-color: #6c63ff !important;
+    background-color: #ff6b6b !important;
+    border-color: #ff6b6b !important;
     color: #07070A !important;
     margin-top: 24px;
 }
 
 .hero__button:hover,
 .hero__button:focus {
-    background-color: #3dafaf !important;
-    border-color: #3dafaf !important;
+    background-color: #b84343 !important;
+    border-color: #b84343 !important;
 }
 
 .working__image {
-    height: 650px;
-    width: 650px;
+    height: 500px;
+    width: 500px;
 }
 
 .img__wrapper {
@@ -76,6 +77,7 @@
         max-width: 600px !important;
         padding-left: 0 !important;
     }
+
 }
 
 @media only screen and (min-width: 769px) and (max-width: 1050px) {
