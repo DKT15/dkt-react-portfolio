@@ -24,7 +24,7 @@ a:hover {
 .navbar-brand {
     color: #2f3e55 !important;
     font-weight: 700;
-    font-size: 32px !important;
+    font-size: 2rem !important;
 }
 
 nav {
@@ -67,22 +67,18 @@ nav {
     }
 }
 
-@media only screen and (min-width: 380px) and (max-width: 600px) {
-    .navbar-collapse {
-        display: flex !important;
-        flex-basis: 0% !important;
-    }
-
-    .nav__links {
-        display: flex !important;
-        flex-direction: row !important;
-        align-items: end !important;
+@media only screen and (min-width: 320px) and (max-width: 769px) {
+    header {
+        width: 280px;
+        max-width: 100%;
+        font-size: 0.5rem;
     }
 
     .navbar-brand {
-        margin: 0 !important;
+        color: #2f3e55 !important;
+        font-weight: 700;
+        font-size: 1.5rem !important;
     }
-
 }
 
 /*MEDIA QUERIES END */

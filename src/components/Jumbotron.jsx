@@ -13,26 +13,24 @@ export default function Jumbotron() {
           <h1 className="display-5 fw-bold hero__header">
             Welcome to my portfolio!
           </h1>
-          <div className="para__wrapper">
-            <p className="col-md-8 fs-4 hero__para">
-              I'm <b className="blue">Danté </b> a
-              <b className="blue"> Front-End Software Engineer</b> with a strong
-              passion for developing amazing websites, with
-              <b className="blue"> great user experiences.</b> I have been
-              learning how to code through different jobs for the past 7 years.
-              <br />
-              <br />
-            </p>
-          </div>
+          <p className="col-md-8 hero__para">
+            I'm <b className="blue">Danté </b> a
+            <b className="blue"> Front-End Software Engineer</b> with a strong
+            passion for developing amazing websites, with
+            <b className="blue"> great user experiences.</b> I have been
+            learning how to code through different jobs for the past 7 years.
+            <br />
+            <br />
+          </p>
           <section className="btns__wrapper">
-            <Link className="btn__wrapper" to="/developmentprojects">
-              <button className="btn btn-lg hero__button" type="button">
-                Development Projects
-              </button>
-            </Link>
             <Link className="btn__wrapper" to="/liveprojects">
               <button className="btn btn-lg hero__button" type="button">
                 Live Projects
+              </button>
+            </Link>
+            <Link className="btn__wrapper" to="/developmentprojects">
+              <button className="btn btn-lg hero__button" type="button">
+                Development Projects
               </button>
             </Link>
           </section>
