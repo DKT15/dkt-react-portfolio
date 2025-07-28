@@ -1,0 +1,72 @@
+/* Hiding the Hamburger menu by default */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background: #ff6b6b;
+    transition: 0.3s;
+}
+
+/* Animating the Hamburger menu to "X" when it is open. */
+.hamburger.open span:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+
+.hamburger.open span:nth-child(3) {
+    transform: rotate(-45deg) translate(6px, -6px);
+}
+
+/* Menu Links */
+.mobile-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1rem;
+    position: absolute;
+    top: 48px;
+    right: 20px;
+    width: 280px;
+    background: white;
+    border-radius: 12px;
+    padding: 2rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    opacity: 0;
+    pointer-events: none;
+    transform: translateY(-10px);
+    transition: all 0.3s ease;
+}
+
+/* Visible state */
+.mobile-links.active {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.mobile-links .nav-link {
+    color: #2f3e55;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 0.75rem;
+}
+
+/* Making it visible for Mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex;
+    }
+}

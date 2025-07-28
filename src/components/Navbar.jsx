@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/Navbar.css";
+import HamburgerMenu from "./HamburgerMenu";
 import { Link, NavLink } from "react-router-dom";
 
 export default function Navbar() {
@@ -13,7 +14,7 @@ export default function Navbar() {
       <Link to="/" className="navbar-brand">
         DKT
       </Link>
-      <nav>
+      <nav className="nav-desktop">
         <NavLink
           to="/"
           style={({ isActive }) => (isActive ? navStyling : null)}
@@ -43,6 +44,9 @@ export default function Navbar() {
           Contact
         </NavLink>
       </nav>
+      <div className="nav-mobile">
+        <HamburgerMenu />
+      </div>
     </header>
   );
 }

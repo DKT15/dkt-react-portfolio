@@ -81,4 +81,25 @@ nav {
     }
 }
 
+/* Mobile nav hidden by default */
+.nav-mobile {
+    display: none;
+}
+
+/* Responsive behavior */
+@media (max-width: 768px) {
+    .nav-desktop {
+        display: none;
+    }
+
+    .nav-mobile {
+        display: flex !important;
+        position: static;
+        flex-direction: row;
+        background: none;
+        padding: 0;
+        width: auto;
+    }
+}
+
 /*MEDIA QUERIES END */
