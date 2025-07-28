@@ -38,8 +38,13 @@
     gap: 1rem;
     position: absolute;
     top: 48px;
-    right: 20px;
-    width: 280px;
+
+    /* Center it horizontally */
+    left: 50%;
+    /* Center + slide effect */
+    transform: translate(-50%, -10px);
+
+    width: 220px;
     background: white;
     border-radius: 12px;
     padding: 2rem;
@@ -54,7 +59,8 @@
 .mobile-links.active {
     opacity: 1;
     pointer-events: auto;
-    transform: translateY(0);
+    transform: translate(-50%, 0);
+    /* Drop into view */
 }
 
 .mobile-links .nav-link {
@@ -62,6 +68,7 @@
     text-decoration: none;
     padding: 10px;
     font-size: 0.75rem;
+    position: relative;
 }
 
 /* Making it visible for Mobile */
