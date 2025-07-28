@@ -29,6 +29,7 @@
     transform: rotate(-45deg) translate(6px, -6px);
 }
 
+
 /* Menu Links */
 .mobile-links {
     display: flex;
@@ -70,8 +71,15 @@
     position: relative;
 }
 
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .mobile-links {
+        max-width: 380px !important;
+        width: 50%;
+    }
+}
+
 /* Making it visible for Mobile */
-@media (max-width: 768px) {
+@media (max-width: 767px) {
     .hamburger {
         display: flex;
     }
