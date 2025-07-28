@@ -11,17 +11,5 @@ html {
 
 #root {
   background-color: #e0f7e9;
-}
-
-@media only screen and (min-width: 1051px) and (max-width: 1750px) {
-  #root {
-    min-height: 100vh !important;
-  }
-}
-
-
-@media only screen and (min-width: 380px) and (max-width: 768px) {
-  #root {
-    min-height: 100vh !important;
-  }
+  overflow-x: auto;
 }

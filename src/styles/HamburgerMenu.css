@@ -43,8 +43,7 @@
     left: 50%;
     /* Center + slide effect */
     transform: translate(-50%, -10px);
-
-    width: 220px;
+    max-width: 320px;
     background: white;
     border-radius: 12px;
     padding: 2rem;
