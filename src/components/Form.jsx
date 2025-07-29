@@ -50,7 +50,7 @@ export default function TextControlsExample() {
               as="textarea"
               rows={3}
               name="message"
-              placeholder="enter here"
+              placeholder="Enter your message here"
               type="text"
               required
             />
