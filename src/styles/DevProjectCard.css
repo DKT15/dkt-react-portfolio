@@ -1,10 +1,25 @@
 .card {
-    margin-top: 108px;
-    margin-left: 56px;
+    display: flex;
+    flex-direction: row;
+}
+
+.col {
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content: center !important;
+}
+
+.card-link {
+    text-decoration: underline !important;
+    color: #ff6b6b !important;
 }
 
 .devproject-wrapper {
     height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .projects__title {
@@ -28,7 +43,6 @@
     .card {
         margin-top: 108px;
         max-width: 22rem !important;
-        margin-left: 0px;
     }
 
     .card-body {
@@ -76,6 +90,12 @@
     .card {
         margin-top: 108px;
         max-width: 10rem !important;
+    }
+
+    .col {
+        display: flex !important;
+        flex-direction: row !important;
+        justify-content: center !important;
     }
 
     .card-body {
