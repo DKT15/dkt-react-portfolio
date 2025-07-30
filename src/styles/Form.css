@@ -60,66 +60,39 @@
 }
 
 .form__submit:hover {
-  border-color: #fff;
-  background-color: transparent;
+  border-color: #b84343;
+  background-color: #b84343;
 }
 
 /* MEDIA QUERIES START */
 
 /* Small phones, tablets, large phones, Computers*/
 
-
-@media only screen and (min-width: 601px) and (max-width: 1750px) {
-  .contact__title {
-    margin: 50px 0 88px 0 !important;
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .form-control {
+    font-size: 0.75rem !important;
   }
 
-  .form__links {
-    display: flex !important;
-    flex-direction: row !important;
-  }
-
-  .form__link {
-    margin: 0 !important;
-    padding: 12px 12px 0 12px;
-  }
-}
-
-
-@media only screen and (min-width: 380px) and (max-width: 600px) {
   .form {
-    display: flex;
-    justify-content: center;
-    padding: 50px 0;
-    max-width: 75%;
-    margin-left: 12%;
+    width: 100%;
+    max-width: 320px !important;
+  }
+
+  .enter__details {
+    font-size: 0.75rem;
+  }
+
+  .email__address {
+    font-size: 0.75rem;
+  }
+
+  .enter__message {
+    font-size: 0.75rem;
   }
 
   .form__submit {
-    font-size: 12px;
+    font-size: 0.75rem !important;
   }
 }
 
 /*MEDIA QUERIES END */
-
-/* Smaller Laptops */
-
-
-/* Small phones, tablets, large phones*/
-
-@media screen and (max-width: 768px) {
-
-  .contact__title {
-    margin: 50px 0 88px 0 !important;
-  }
-
-  .form__links {
-    display: flex !important;
-    flex-direction: row !important;
-  }
-
-  .form__link {
-    margin: 0 !important;
-    padding: 12px 12px 0 12px;
-  }
-}
