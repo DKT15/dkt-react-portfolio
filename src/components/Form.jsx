@@ -29,7 +29,7 @@ export default function TextControlsExample() {
     <>
       <h1 className="contact__title">Contact</h1>
       <Form className="form" onSubmit={handleFormSubmit}>
-        <div className="form__wrapper">
+        <section className="form__wrapper">
           <p className="enter__details">
             Enter your details below to get in touch!
           </p>
@@ -58,7 +58,7 @@ export default function TextControlsExample() {
           <button type="submit" id="contact__submit" className="form__submit">
             Send it my way!
           </button>
-        </div>
+        </section>
       </Form>
     </>
   );

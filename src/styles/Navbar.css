@@ -2,7 +2,7 @@
     background-color: #e0f7e9;
 }
 
-header {
+.nav-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;

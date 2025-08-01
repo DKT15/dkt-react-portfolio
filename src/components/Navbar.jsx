@@ -10,7 +10,7 @@ export default function Navbar() {
   };
 
   return (
-    <header>
+    <header className="nav-wrapper">
       <Link to="/" className="navbar-brand">
         DKT
       </Link>
