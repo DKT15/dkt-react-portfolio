@@ -29,7 +29,11 @@ export default function TextControlsExample() {
     <>
       <h1 className="contact__title">Contact</h1>
       <Form className="form" onSubmit={handleFormSubmit}>
-        <section className="form__wrapper">
+        <section
+          className="form__wrapper"
+          role="region"
+          aria-labelledby="contact form"
+        >
           <p className="enter__details">
             Enter your details below to get in touch!
           </p>
@@ -38,6 +42,7 @@ export default function TextControlsExample() {
             <Form.Control
               name="user_email"
               type="email"
+              aria-label="Enter your email address"
               placeholder="name@example.com"
               required
             />
@@ -50,6 +55,7 @@ export default function TextControlsExample() {
               as="textarea"
               rows={3}
               name="message"
+              aria-label="Enter your message here"
               placeholder="Enter your message here"
               type="text"
               required
