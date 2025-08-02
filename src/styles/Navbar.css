@@ -9,7 +9,7 @@
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 8px 0;
+    padding: 0.5em 0;
 }
 
 a {
@@ -32,7 +32,7 @@ nav {
 }
 
 .nav-link {
-    padding: 0 12px !important;
+    padding: 0 0.75em !important;
 }
 
 /* Hamburger menu which is the nav on mobile is hidden by default */
