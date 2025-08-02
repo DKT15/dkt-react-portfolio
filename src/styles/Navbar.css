@@ -94,7 +94,7 @@ nav {
 
 
 
-/* Hamburger Menu */
+/* Hamburger Menu for smaller screens*/
 @media (max-width: 767px) {
     .nav-desktop {
         display: none;

@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 1.25em;
 }
 
 .card-link {
@@ -14,7 +14,7 @@
     color: #2f3e55;
     display: flex;
     justify-content: center;
-    margin: 56px 0;
+    margin: 3.5em 0;
 }
 
 
@@ -25,12 +25,12 @@
 
 @media only screen and (min-width: 1200px) and (max-width: 1439px) {
     .card {
-        max-width: 22rem !important;
+        max-width: 352px !important;
     }
 
     .card-body {
-        max-height: 4rem !important;
-        margin-bottom: 40px !important;
+        max-height: 64px !important;
+        margin-bottom: 2.5em !important;
     }
 
     .card-link {
@@ -38,18 +38,18 @@
         flex-direction: column !important;
         align-items: center !important;
         margin-left: 0 !important;
-        padding-bottom: 8px !important;
+        padding-bottom: 0.5em !important;
     }
 }
 
 @media only screen and (min-width: 1024px) and (max-width: 1199px) {
     .card {
-        max-width: 18rem !important;
+        max-width: 288px !important;
     }
 
     .card-body {
-        max-height: 5rem !important;
-        margin-bottom: 40px !important;
+        max-height: 80px !important;
+        margin-bottom: 2.5em !important;
     }
 
     .card-link {
@@ -57,18 +57,18 @@
         flex-direction: column !important;
         align-items: center !important;
         margin-left: 0 !important;
-        padding-bottom: 8px !important;
+        padding-bottom: 0.5em !important;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     .card {
-        max-width: 14rem !important;
+        max-width: 224px !important;
     }
 
     .card-body {
-        max-height: 8rem !important;
-        margin-bottom: 40px !important;
+        max-height: 128px !important;
+        margin-bottom: 2.5em !important;
     }
 
     .card-link {
@@ -76,13 +76,13 @@
         flex-direction: column !important;
         align-items: center !important;
         margin-left: 0 !important;
-        padding: 8px 0 !important;
+        padding: 0.5em 0 !important;
     }
 }
 
 @media only screen and (min-width: 320px) and (max-width: 767px) {
     .card {
-        max-width: 18rem !important;
+        max-width: 288px !important;
     }
 
 }

@@ -13,7 +13,7 @@ export default function GridExample() {
       <Row xs={1} md={3} className="g-4">
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[0].image} />
               <Card.Body>
                 <Card.Title>{projects[0].project}</Card.Title>
@@ -32,7 +32,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[1].image} />
               <Card.Body>
                 <Card.Title>{projects[1].project}</Card.Title>
@@ -51,7 +51,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[2].image} />
               <Card.Body>
                 <Card.Title>{projects[2].project}</Card.Title>
@@ -70,7 +70,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[3].image} />
               <Card.Body>
                 <Card.Title>{projects[3].project}</Card.Title>
@@ -89,7 +89,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[4].image} />
               <Card.Body>
                 <Card.Title>{projects[4].project}</Card.Title>
@@ -108,7 +108,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[5].image} />
               <Card.Body>
                 <Card.Title>{projects[5].project}</Card.Title>
@@ -127,7 +127,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[6].image} />
               <Card.Body>
                 <Card.Title>{projects[6].project}</Card.Title>
@@ -146,7 +146,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[7].image} />
               <Card.Body>
                 <Card.Title>{projects[7].project}</Card.Title>
@@ -165,7 +165,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[8].image} />
               <Card.Body>
                 <Card.Title>{projects[8].project}</Card.Title>
@@ -184,7 +184,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[9].image} />
               <Card.Body>
                 <Card.Title>{projects[9].project}</Card.Title>
@@ -203,7 +203,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[10].image} />
               <Card.Body>
                 <Card.Title>{projects[10].project}</Card.Title>
@@ -222,7 +222,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[11].image} />
               <Card.Body>
                 <Card.Title>{projects[11].project}</Card.Title>
@@ -241,7 +241,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[12].image} />
               <Card.Body>
                 <Card.Title>{projects[12].project}</Card.Title>
@@ -260,7 +260,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[13].image} />
               <Card.Body>
                 <Card.Title>{projects[13].project}</Card.Title>
@@ -279,7 +279,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[14].image} />
               <Card.Body>
                 <Card.Title>{projects[14].project}</Card.Title>
@@ -298,7 +298,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[15].image} />
               <Card.Body>
                 <Card.Title>{projects[15].project}</Card.Title>
@@ -317,7 +317,7 @@ export default function GridExample() {
         ))}
         {Array.from({ length: 1 }).map((_, idx) => (
           <Col key={idx}>
-            <Card style={{ width: "30rem" }}>
+            <Card style={{ width: "480px" }}>
               <Card.Img variant="top" src={projects[16].image} />
               <Card.Body>
                 <Card.Title>{projects[16].project}</Card.Title>
