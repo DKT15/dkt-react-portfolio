@@ -23,7 +23,7 @@ export default function Jumbotron() {
             <br />
             <br />
           </p>
-          <nav className="btns__wrapper">
+          <div className="btns__wrapper">
             <Link className="livebtn__wrapper" to="/liveprojects">
               <button className="btn btn-lg hero__button" type="button">
                 Live Projects
@@ -34,8 +34,8 @@ export default function Jumbotron() {
                 Development Projects
               </button>
             </Link>
-          </nav>
-          <nav className="form-links">
+          </div>
+          <div className="form-links">
             <a
               href="https://github.com/DKT15"
               target="_blank"
@@ -57,7 +57,7 @@ export default function Jumbotron() {
             >
               <FontAwesomeIcon className="form__link" icon={faFile} />
             </a>
-          </nav>
+          </div>
         </header>
         <figure className="img__wrapper">
           <img
