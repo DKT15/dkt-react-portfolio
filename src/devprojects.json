@@ -134,5 +134,13 @@
         "description": "Allows the user to search for movies, to then add or remove to their watchlist.",
         "deployed": "https://dkt-movie-watchlist.netlify.app/",
         "repo": "https://github.com/DKT15/movie-watchlist"
+    },
+    {
+        "id" : 18,
+        "project" : "Quizzical App",
+        "image": "./assets/images/quizzical.png",
+        "description": "This app allows users to answer questions to test their sporting knowledge.",
+        "deployed": "https://dkt-quizzical.netlify.app/",
+        "repo": "https://github.com/DKT15/quizzical"
     }
 ]
