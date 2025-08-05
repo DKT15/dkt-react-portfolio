@@ -41,27 +41,27 @@ export default function Jumbotron() {
               target="_blank"
               aria-label="GitHub"
             >
-              <FontAwesomeIcon className="form__link" icon={faGithub} />
+              <FontAwesomeIcon className="form-link" icon={faGithub} />
             </a>
             <a
               href="https://www.linkedin.com/in/dant%C3%A9-kellman-thompson-8b720720a/"
               target="_blank"
               aria-label="LinkedIn"
             >
-              <FontAwesomeIcon className="form__link" icon={faLinkedin} />
+              <FontAwesomeIcon className="form-link" icon={faLinkedin} />
             </a>
             <a
               href="./assets/DKT-Front-End-Software-Engineer-CV.pdf"
               target="_blank"
               aria-label="Download CV"
             >
-              <FontAwesomeIcon className="form__link" icon={faFile} />
+              <FontAwesomeIcon className="form-link" icon={faFile} />
             </a>
           </div>
         </header>
         <figure className="img__wrapper">
           <img
-            className="working__image"
+            className="working-image"
             src="./assets/images/web-app.svg"
             alt="Illustration of a web application"
           />
