@@ -53,7 +53,7 @@ export default function TextControlsExample() {
               Enter your details below to get in touch!
             </p>
             <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-              <Form.Label className="email__address">Email address</Form.Label>
+              <Form.Label className="email__address">*Email address</Form.Label>
               <Form.Control
                 name="user_email"
                 type="email"
@@ -67,7 +67,7 @@ export default function TextControlsExample() {
               controlId="exampleForm.ControlTextarea1"
             >
               <Form.Label className="enter__message">
-                Enter your message
+                *Enter your message
               </Form.Label>
               <Form.Control
                 as="textarea"
