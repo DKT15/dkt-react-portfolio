@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
 import { faLinkedin, faGithub } from "@fortawesome/free-brands-svg-icons";
 
-export default function Jumbotron() {
+export default function Homepage() {
   return (
     <section className="p-5 mb-4 hero__section">
       <div className="container-fluid py-5 hero__wrapper">

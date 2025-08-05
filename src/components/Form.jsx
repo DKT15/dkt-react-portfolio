@@ -11,10 +11,10 @@ export default function TextControlsExample() {
     // Getting values from the emailjs API.
     emailjs.init("M05BeQ_HdwdgDuf_1");
     const sentemail = await emailjs.sendForm(
-      "service_e0skzz9",
-      "template_2oxjovj",
+      "service_jc3uxsf",
+      "template_d98c8qh",
       event.target,
-      "M05BeQ_HdwdgDuf_1"
+      "fcZVbl_CsS9acTyL0"
     );
     // When sentemail.text is ok clear the form data, display confirm message in component.
     sentemail.text === "Ok";

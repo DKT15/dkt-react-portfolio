@@ -4,7 +4,7 @@ import "./App.css";
 import DevelopmentProjects from "./pages/DevelopmentProjects";
 import Contact from "./pages/Contact";
 import Navbar from "./components/Navbar";
-import Jumbotron from "./components/Jumbotron";
+import Homepage from "./pages/Homepage";
 
 //Gets code from the components and pages.
 function App() {
@@ -18,7 +18,7 @@ function App() {
             element={<DevelopmentProjects />}
           />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/" element={<Jumbotron />} />
+          <Route path="/" element={<Homepage />} />
         </Routes>
       </Router>
     </div>
