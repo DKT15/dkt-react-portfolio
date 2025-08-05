@@ -64,6 +64,12 @@
   background-color: #b84343;
 }
 
+.success-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 /* MEDIA QUERIES START */
 
 /* Small phones, tablets, large phones, Computers*/
