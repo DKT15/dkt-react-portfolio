@@ -64,11 +64,14 @@
   background-color: #b84343;
 }
 
-.success-text {
+.text__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
+
+
 
 /* MEDIA QUERIES START */
 
@@ -107,6 +110,11 @@
   .form__submit {
     font-size: 0.75rem !important;
   }
+
+  .success-text {
+    max-width: 300px;
+  }
+
 }
 
 /*MEDIA QUERIES END */

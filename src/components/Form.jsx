@@ -7,7 +7,7 @@ export default function TextControlsExample() {
   const [submitted, setSubmitted] = React.useState(false);
 
   const handleFormSubmit = async (event) => {
-    // Preventing the default behavior of the form submit (which is to refresh the page)
+    // Preventing the form submit from refreshing the page)
     event.preventDefault();
 
     emailjs.init("M05BeQ_HdwdgDuf_1");
@@ -37,9 +37,11 @@ export default function TextControlsExample() {
     <>
       <h1 className="contact__title">Contact</h1>
       {submitted ? (
-        <p className="success-text">
-          Thanks for getting in touch. Look forward to speaking with you soon!
-        </p>
+        <div className="text__wrapper">
+          <p className="success-text">
+            Thanks for getting in touch. Look forward to speaking with you soon!
+          </p>
+        </div>
       ) : (
         <Form className="form" onSubmit={handleFormSubmit}>
           <section
