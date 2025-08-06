@@ -4,6 +4,7 @@ import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
 
 export default function TextControlsExample() {
+  // tracking whether or not the form has been submitted.
   const [submitted, setSubmitted] = React.useState(false);
 
   const handleFormSubmit = async (event) => {
@@ -33,6 +34,8 @@ export default function TextControlsExample() {
   };
 
   // Code for my form to go on the contact page.
+  // If submitted is true, then the message in the p text will be displayed. Otherwise the form will stay on the page and an alert will be displayed to the user.
+  // The error alerts are in the above code.
   return (
     <>
       <h1 className="contact__title">Contact</h1>

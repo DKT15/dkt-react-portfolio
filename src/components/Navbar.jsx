@@ -23,21 +23,21 @@ export default function Navbar() {
           Home
         </NavLink>
         <NavLink
-          to="/liveprojects"
+          to="liveprojects"
           style={({ isActive }) => (isActive ? navStyling : null)}
           className="nav-link"
         >
           Live Projects
         </NavLink>
         <NavLink
-          to="/developmentprojects"
+          to="developmentprojects"
           style={({ isActive }) => (isActive ? navStyling : null)}
           className="nav-link"
         >
           Development Projects
         </NavLink>
         <NavLink
-          to="/contact"
+          to="contact"
           style={({ isActive }) => (isActive ? navStyling : null)}
           className="nav-link"
         >
