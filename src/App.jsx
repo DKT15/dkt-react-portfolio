@@ -5,6 +5,7 @@ import DevelopmentProjects from "./pages/DevelopmentProjects";
 import Contact from "./pages/Contact";
 import Homepage from "./pages/Homepage";
 import Layout from "./components/Layout";
+import NotFound from "./pages/NotFound";
 
 //Gets code from the components and pages.
 // Fixing the Navbar with a layour route.
@@ -22,8 +23,8 @@ function App() {
               element={<DevelopmentProjects />}
             />
             <Route path="contact" element={<Contact />} />
+            <Route path="*" element={<NotFound />} />
           </Route>
-          <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>
     </div>
