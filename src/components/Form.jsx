@@ -2,10 +2,13 @@ import React from "react";
 import "../styles/Form.css";
 import Form from "react-bootstrap/Form";
 import emailjs from "@emailjs/browser";
+// import { useNavigate } from "react-router-dom";
 
 export default function TextControlsExample() {
   // tracking whether or not the form has been submitted.
   const [submitted, setSubmitted] = React.useState(false);
+
+  // let navigate = useNavigate();
 
   const handleFormSubmit = async (event) => {
     // Preventing the form submit from refreshing the page)
@@ -24,6 +27,7 @@ export default function TextControlsExample() {
       if (sentemail.text === "OK") {
         event.target.reset(); // clear the form
         setSubmitted(true); // show success message
+        // navigate("/");
       } else {
         alert("Something went wrong. Please try again.");
       }
