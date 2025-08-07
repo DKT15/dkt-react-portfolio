@@ -1,11 +1,15 @@
 import React from "react";
-import DevProjectCard from "../components/DevProjectCard";
 
+const DevProjectCard = React.lazy(() => {
+  return import("../components/DevProjectCard");
+});
 //Gets code from the card.
 export default function developmentProjects() {
   return (
-    <div className="devproject-wrapper">
-      <DevProjectCard />
-    </div>
+    <React.Suspense fallback={<h2>Loading...</h2>}>
+      <div className="devproject-wrapper">
+        <DevProjectCard />
+      </div>
+    </React.Suspense>
   );
 }

@@ -7,6 +7,8 @@ import emailjs from "@emailjs/browser";
 export default function TextControlsExample() {
   // tracking whether or not the form has been submitted.
   const [submitted, setSubmitted] = React.useState(false);
+
+  // tracking the loading state. If the form is loading then sending will be displayed in the button to let the user know.
   const [loading, setLoading] = React.useState(false);
 
   // let navigate = useNavigate();
@@ -15,6 +17,7 @@ export default function TextControlsExample() {
     // Preventing the form submit from refreshing the page)
     event.preventDefault();
 
+    // set loading to true before the async call below.
     setLoading(true);
 
     emailjs.init("M05BeQ_HdwdgDuf_1");
@@ -91,7 +94,7 @@ export default function TextControlsExample() {
               />
             </Form.Group>
             <button type="submit" id="contact__submit" className="form__submit">
-              {loading ? "Sending" : "Send it my way!"}
+              {loading ? "Sending..." : "Send it my way!"}
             </button>
           </section>
         </Form>

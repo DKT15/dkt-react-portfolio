@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Jumbotron.css";
+import "../styles/Homepage.css";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
@@ -64,6 +64,11 @@ export default function Homepage() {
             className="working-image"
             src="./assets/images/web-app.svg"
             alt="Illustration of a web application"
+            // fixing LCP issues
+            loading="eager"
+            fetchpriority="high"
+            width="320"
+            height="320"
           />
         </figure>
       </div>
