@@ -7,12 +7,15 @@ import emailjs from "@emailjs/browser";
 export default function TextControlsExample() {
   // tracking whether or not the form has been submitted.
   const [submitted, setSubmitted] = React.useState(false);
+  const [loading, setLoading] = React.useState(false);
 
   // let navigate = useNavigate();
 
   const handleFormSubmit = async (event) => {
     // Preventing the form submit from refreshing the page)
     event.preventDefault();
+
+    setLoading(true);
 
     emailjs.init("M05BeQ_HdwdgDuf_1");
 
@@ -35,6 +38,7 @@ export default function TextControlsExample() {
       console.error("EmailJS error:", error);
       alert("There was an error sending your message.");
     }
+    setLoading(false);
   };
 
   // Code for my form to go on the contact page.
@@ -87,7 +91,7 @@ export default function TextControlsExample() {
               />
             </Form.Group>
             <button type="submit" id="contact__submit" className="form__submit">
-              Send it my way!
+              {loading ? "Sending" : "Send it my way!"}
             </button>
           </section>
         </Form>
