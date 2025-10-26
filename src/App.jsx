@@ -2,6 +2,7 @@ import React from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
 import DevelopmentProjects from "./pages/DevelopmentProjects";
+import AIProjects from "./pages/AIProjects";
 import Contact from "./pages/Contact";
 import Homepage from "./pages/Homepage";
 import Layout from "./components/Layout";
@@ -18,6 +19,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Layout />}>
             <Route index element={<Homepage />} />
+            <Route path="aiprojects" element={<AIProjects />} />
             <Route
               path="developmentprojects"
               element={<DevelopmentProjects />}

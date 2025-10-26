@@ -1,0 +1,26 @@
+[
+    {
+        "id" : 1,
+        "project" : "Chef Claude",
+        "image": "./assets/images/chef-claude.png",
+        "description": " This app lets users enter their ingredients and instantly suggests a recipe.",
+        "deployed": "https://dkt-chef-claude.netlify.app/",
+        "repo": "https://github.com/DKT15/chef-claude"
+    },
+    {
+        "id" : 2,
+        "project" : "PollyGlot",
+        "image": "./assets/images/pollyglot.png",
+        "description": "This app allows users to translate custom text into French, Spanish or Japanese. ",
+        "deployed": "https://dkt-ai-translation.netlify.app/",
+        "repo": "https://github.com/DKT15/translation-app-ai"
+    },
+    {
+        "id" : 3,
+        "project" : "PopChoice",
+        "image": "./assets/images/pop-choice.png",
+        "description": "This app allows users to get a movie suggestion based off their emotions.",
+        "deployed": "https://dktmovieaiapp.netlify.app/",
+        "repo": "https://github.com/DKT15/movie-ai-app"
+    }
+]

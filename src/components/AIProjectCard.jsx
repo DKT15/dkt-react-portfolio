@@ -1,5 +1,5 @@
 import Card from "react-bootstrap/Card";
-import devProjects from "../devprojects.json";
+import aiProjects from "../aiprojects.json";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import "../styles/ProjectCard.css";
@@ -7,7 +7,7 @@ import "../styles/ProjectCard.css";
 // Code for my cards to go on the projects page.
 // Mapping over all devProjects data to format it in the below bootstrap code for cards.
 export default function GridExample() {
-  const devProjectsData = devProjects.map((project) => {
+  const aiProjectsData = aiProjects.map((project) => {
     return Array.from({ length: 1 }).map((_, idx) => (
       <Col key={idx}>
         <Card style={{ width: "480px" }}>
@@ -32,9 +32,9 @@ export default function GridExample() {
   // Importing all the data I have got from the above map to be returned in the dom. It is formatted with the Row component from bootstrap.
   return (
     <>
-      <h1 className="projects__title">Development Projects</h1>
+      <h1 className="projects__title">AI Projects</h1>
       <Row xs={1} md={3} className="g-4">
-        {devProjectsData}
+        {aiProjectsData}
       </Row>
     </>
   );

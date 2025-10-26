@@ -30,6 +30,13 @@ export default function Navbar() {
           Live Projects
         </NavLink>
         <NavLink
+          to="aiprojects"
+          style={({ isActive }) => (isActive ? navStyling : null)}
+          className="nav-link"
+        >
+          AI Projects
+        </NavLink>
+        <NavLink
           to="developmentprojects"
           style={({ isActive }) => (isActive ? navStyling : null)}
           className="nav-link"
