@@ -47,7 +47,7 @@ Clone down this repository. You will need node.js and git installed globally on 
 
 ## Screenshot
 
-![React Portfolio Image](/public/assets/images/react-portfolio.jpg)
+![React Portfolio Image](/public/assets/images/react-portfolio.png)
 
 ## Deployment
 
