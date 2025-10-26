@@ -29,6 +29,11 @@ export default function Homepage() {
                 Live Projects
               </button>
             </Link>
+            <Link className="livebtn__wrapper" to="/aiprojects">
+              <button className="btn btn-lg hero__button" type="button">
+                AI Projects
+              </button>
+            </Link>
             <Link className="devbtn__wrapper" to="/developmentprojects">
               <button className="btn btn-lg hero__button" type="button">
                 Development Projects
