@@ -37,6 +37,13 @@ export default function HamburgerMenu() {
           Development Projects
         </NavLink>
         <NavLink
+          to="/aiprojects"
+          onClick={() => setIsOpen(false)}
+          className="nav-link"
+        >
+          AI Projects
+        </NavLink>
+        <NavLink
           to="/contact"
           onClick={() => setIsOpen(false)}
           className="nav-link"
