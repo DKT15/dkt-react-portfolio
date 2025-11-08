@@ -38,6 +38,7 @@ Clone down this repository. You will need node.js and git installed globally on 
 - [Bootstrap](https://getbootstrap.com/)
 - [EmailJs](https://www.emailjs.com/)
 - [Fontawsome](https://fontawesome.com/)
+- [Favicon](https://favicon.io/)
 
 ## Features
 
