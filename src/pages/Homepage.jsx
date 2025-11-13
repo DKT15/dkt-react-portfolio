@@ -15,11 +15,10 @@ export default function Homepage() {
           </h1>
           <p className="col-md-8 hero__para">
             I'm <strong className="blue">Danté</strong>, a
-            <strong className="blue"> Front-End Software Engineer</strong> with
-            a strong passion for developing amazing websites, with
-            <strong className="blue"> great user experiences.</strong> I have
-            been learning how to code through different jobs for the past 7
-            years.
+            <strong className="blue"> Front-End Software Engineer</strong> I
+            have been coding for seven years, developing a strong passion for
+            building websites, with
+            <strong className="blue"> great user experiences. </strong>
             <br />
             <br />
           </p>
